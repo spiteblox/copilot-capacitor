@@ -1,61 +1,15 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#101114">
-  <title>Copilot</title>
-  <style>
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      min-height: 100vh;
-      display: grid;
-      place-items: center;
-      padding: 24px;
-      background: #101114;
-      color: #f5f5f5;
-      font-family: system-ui, sans-serif;
-    }
-    main { width: 100%; max-width: 420px; }
-    h1 { font-size: 36px; margin-bottom: 8px; }
-    p { color: #b9bbc4; line-height: 1.6; }
-    .url {
-      overflow-wrap: anywhere;
-      padding: 16px;
-      border: 1px solid #383a44;
-      border-radius: 14px;
-      background: #191a20;
-      color: #d9e5ff;
-      line-height: 1.6;
-    }
-    a.button {
-      display: block;
-      margin-top: 20px;
-      padding: 15px;
-      border-radius: 12px;
-      background: #dce6ff;
-      color: #151923;
-      text-align: center;
-      text-decoration: none;
-      font-weight: 700;
-    }
-  </style>
-</head>
-<body>
-  <main>
-    <h1>Copilot</h1>
-    <p>Microsoft Copilot web address</p>
-    <div class="url" id="copilot-url"></div>
-    <a class="button" id="open-copilot" href="#">
-      Open Copilot
-    </a>
-  </main>
-  <script>
-    const url =
-      "https://copilot.cloud.microsoft/chat?fromcode=cmmqbg1y3ah&es=UnauthClick&redirfrom=cosmicRingCookie";
-    document.getElementById("copilot-url").textContent = url;
-    document.getElementById("open-copilot").href = url;
-  </script>
-</body>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Copilot</title>
+<style>
+body{background:#101114;color:white;font:17px system-ui;display:grid;place-items:center;min-height:90vh;padding:20px}
+main{max-width:440px}a{display:block;background:#dce6ff;color:#151923;padding:16px;border-radius:12px;text-align:center;text-decoration:none;font-weight:bold;overflow-wrap:anywhere}
+</style>
+<main>
+<h1>Copilot</h1>
+<p>Open Microsoft Copilot</p>
+<a href="https://copilot.cloud.microsoft/chat?fromcode=cmmqbg1y3ah&amp;es=UnauthClick&amp;redirfrom=cosmicRingCookie">Open Copilot</a>
+</main>
 </html>
