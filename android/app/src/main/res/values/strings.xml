@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Copilot</string>
+    <string name="title_activity_main">Copilot</string>
+    <string name="package_name">com.spiteblox.copilot</string>
+    <string name="custom_url_scheme">com.spiteblox.copilot</string>
+</resources>
